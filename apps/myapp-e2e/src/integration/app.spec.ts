@@ -1,6 +1,6 @@
 import { getGreeting } from '../support/app.po';
 
-describe('angular-ngxs-cypress-jest', () => {
+describe('myapp', () => {
   beforeEach(() => cy.visit('/'));
 
   it('should display welcome message', () => {
@@ -8,6 +8,6 @@ describe('angular-ngxs-cypress-jest', () => {
     cy.login('my-email@something.com', 'myPassword');
 
     // Function helper example, see `../support/app.po.ts` file
-    getGreeting().contains('Welcome to angular-ngxs-cypress-jest!');
+    getGreeting().contains('Welcome to myapp!');
   });
 });

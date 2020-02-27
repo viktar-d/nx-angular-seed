@@ -1,7 +1,7 @@
 module.exports = {
-  name: 'angular-ngxs-cypress-jest',
+  name: 'myapp',
   preset: '../../jest.config.js',
-  coverageDirectory: '../../coverage/apps/angular-ngxs-cypress-jest',
+  coverageDirectory: '../../coverage/apps/myapp',
   snapshotSerializers: [
     'jest-preset-angular/build/AngularNoNgAttributesSnapshotSerializer.js',
     'jest-preset-angular/build/AngularSnapshotSerializer.js',
