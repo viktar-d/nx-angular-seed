@@ -1,0 +1,28 @@
+{
+  "npmScope": "angular-seed",
+  "implicitDependencies": {
+    "angular.json": "*",
+    "package.json": {
+      "dependencies": "*",
+      "devDependencies": "*"
+    },
+    "tsconfig.json": "*",
+    "tslint.json": "*",
+    "nx.json": "*"
+  },
+  "projects": {
+    "angular-ngxs-cypress-jest": {
+      "tags": []
+    },
+    "angular-ngxs-cypress-jest-e2e": {
+      "tags": [],
+      "implicitDependencies": ["angular-ngxs-cypress-jest"]
+    },
+    "api": {
+      "tags": []
+    },
+    "api-interfaces": {
+      "tags": []
+    }
+  }
+}
